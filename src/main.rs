@@ -17,7 +17,7 @@ fn main() {
 }
 
 mod easyeffects {
-    const PRESETS: &[&str] = &["Bose", "AKG + TAGA amp", "Voice Booster"];
+    const PRESETS: &[&str] = &["Bose", "AKG + TAGA amp", "Voice Booster", "Flat EQ"];
     use std::process::Command;
 
     pub fn get_current_preset() -> String {
